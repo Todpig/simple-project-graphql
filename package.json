@@ -1,0 +1,22 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev:query": "tsnd --respawn --transpile-only simple-query.ts",
+    "dev:mutation": "tsnd --respawn --transpile-only simple-mutation.ts",
+    "dev:simple": "tsnd --respawn --transpile-only simple-server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "apollo-server": "^3.13.0",
+    "graphql": "^16.9.0"
+  }
+}
