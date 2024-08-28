@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev:query": "tsnd --respawn --transpile-only simple-query.ts",
+    "dev:hello": "tsnd --respawn --transpile-only hello.ts",
     "dev:mutation": "tsnd --respawn --transpile-only simple-mutation.ts",
-    "dev:simple": "tsnd --respawn --transpile-only simple-server.ts"
+    "dev:server": "tsnd --respawn --transpile-only simple-server.ts"
   },
   "keywords": [],
   "author": "",

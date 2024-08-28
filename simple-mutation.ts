@@ -21,7 +21,7 @@ const server = new ApolloServer({
     Mutation: {
       createUser: (_, args) => {
         users.push(args.name);
-        return "Created";
+        return "User created";
       },
     },
   },
